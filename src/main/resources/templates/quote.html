@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Random Quote</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="quote-box">
+            <p th:text="${quote.text}" class="quote-text"></p>
+            <p th:text="${quote.author}" class="quote-author"></p>
+        </div>
+       
+</body>
+</html>
